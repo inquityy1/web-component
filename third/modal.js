@@ -91,6 +91,28 @@ class Modal extends HTMLElement {
 //	static get observedAttributes() {
 //		return ['opened'];
 //	}
+
+	open() {
+		this.setAttribute('opened', '')
+	}
 }
 
 customElements.define('uc-modal', Modal);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
